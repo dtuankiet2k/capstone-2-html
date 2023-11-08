@@ -1,0 +1,110 @@
+body,
+html {
+  height: 100%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+div {
+  display: block;
+}
+.top-container {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image/funix-app-programmer1.jpeg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.title-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.profile-img {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  color: #11999e;
+  margin-left: 10px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.h3-contactme {
+  text-align: center;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
